@@ -2,10 +2,8 @@
   "name": "hr-notifications",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/main.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wildcardeve/hr-notifications.git"
@@ -19,16 +17,11 @@
   "homepage": "https://github.com/wildcardeve/hr-notifications#readme",
   "dependencies": {
     "axios": "^0.24.0",
-    "dotenv": "^10.0.0",
-    "googleapis": "^92.0.0"
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
-    "@types/node": "^17.0.5",
-    "@typescript-eslint/eslint-plugin": "^5.8.1",
-    "@typescript-eslint/parser": "^5.8.1",
     "eslint": "^8.5.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.3",
-    "typescript": "^4.5.4"
+    "eslint-plugin-import": "^2.25.3"
   }
 }
