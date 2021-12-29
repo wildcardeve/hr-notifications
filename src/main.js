@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 require('dotenv').config();
 const CacheHandler = require('./handler/CacheHandler');
 const sendToDiscord = require('./handler/DiscordHandler');
@@ -20,8 +21,9 @@ async function notificationSystem() {
       await sendToDiscord();
       console.log('Updating cached version.');
       cache.saveApplicationToCache(latestApplication);
+    } else {
+      console.log('No new applications.');
     }
-    console.log('No new applications.');
   } catch (err) {
     console.log('Main Application Failure.');
     throw new Error(err);
