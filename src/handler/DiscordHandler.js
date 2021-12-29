@@ -7,7 +7,7 @@ async function sendToDiscord() {
   };
 
   const postData = {
-    content: 'There is a new Application! Visit: https://docs.google.com/forms/d/1SrkZf6vyKlay0HUdsTWb8QHMSIcfK4xsPRDSR8Q70VA/edit#responses',
+    content: '<@&737696484866392165> There is a new Application! Visit: https://docs.google.com/forms/d/1SrkZf6vyKlay0HUdsTWb8QHMSIcfK4xsPRDSR8Q70VA/edit#responses',
   };
 
   try {
